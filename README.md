@@ -15,7 +15,35 @@
 
 https://mermaid.live
 
-git status
-git add.
-git commit -m "Estrutura Inicial"
-git push origin main
+
+```mermaid
+classDiagram
+    class Usuario{
+        +id
+        +nome
+        +nickname
+        +bio
+        +foto
+        +email
+        +senha
+        +criado_em
+        +atualizado_em
+    }
+    class Post{
+        +id
+        +usuario_id
+        +foto
+        +legenda
+        +localizacao?
+        +criado_em
+        +atualizado_em?
+    }
+    class Comentario{
+
+    }
+    class Curtida{
+
+    }
+
+
+```
